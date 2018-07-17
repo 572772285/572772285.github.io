@@ -1,15 +1,23 @@
+.jumbotron {
+  font-size: 18px;
+  color: #dc143c;
+  background: url(../images/title.jpg);
+  background-repeat: repeat-y;
+  background-size: 100%;
+  margin-bottom: 0;
+}
 .navbar-default .navbar-brand {
   color: #000;
 }
 .navbar-default .navbar-nav > li > .active {
-  color: #FFC0CB;
+  color: #dc143c;
 }
 .navbar-default .navbar-nav > li > a {
   font-size: 16px;
   margin-right: 10px;
 }
 .navbar-default .navbar-nav > li > a:hover {
-  color: #FFC0CB;
+  color: #dc143c;
 }
 .carousel-inner > .item img {
   width: 100%;
@@ -24,4 +32,17 @@
 }
 .media-left .me-img {
   width: 50px;
+}
+.media-left .log {
+  width: 100%;
+  height: 250px;
+}
+.panel-default {
+  margin-top: 15px;
+}
+.panel-default span {
+  margin-left: 15px;
+}
+.panel-default:hover .panel-title {
+  color: #dc143c;
 }
