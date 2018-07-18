@@ -1,6 +1,6 @@
 .jumbotron {
   font-size: 18px;
-  color: #dc143c;
+  color: red;
   background: url(../images/title.jpg);
   background-repeat: repeat-y;
   background-size: 100%;
@@ -45,4 +45,14 @@
 }
 .panel-default:hover .panel-title {
   color: #dc143c;
+}
+.color3{
+  background-color:   
+#9370DB;
+}
+.color4{
+  background-color:#2F4F4F;
+}
+.color5{
+  background-color:#CD5C5C;
 }

@@ -1,6 +1,6 @@
 .jumbotron {
   font-size: 18px;
-  color: #dc143c;
+  color: red;
   background: url(../images/title.jpg);
   background-repeat: repeat-y;
   background-size: 100%;
@@ -41,4 +41,35 @@
 }
 .panel-default:hover .panel-title {
   color: #dc143c;
+}
+.color3{
+  background-color:   
+#9370DB;
+}
+.color4{
+  background-color:#2F4F4F;
+}
+.color5{
+  background-color:#CD5C5C;
+}
+.ad .zimeiti1{
+  height: 100px;
+}
+.ad .zimeiti2{
+  height: auto;
+}
+.ad .zimeiti3{
+  width: 400px;
+  height: auto;
+}
+.auto{
+  text-align: center;
+  margin-top: 20px;
+}
+.clored{
+  color:red;
+  font-weight: bold;
+}
+.ad1 a{
+  border:none;
 }
