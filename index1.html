@@ -24,11 +24,19 @@ h1{
 h1 span{
     font-size:20px;
 }
+audio{
+  width: 150px;
+  height: 50px;
+}
 </style>
 
 </head>
 <body>
 <h1 id="h1"></h1>
+<audio autoplay="autoplay" controls="controls"loop="loop" preload="auto"
+            src="vedio/1.mp3">
+      你的浏览器不支持audio标签
+</audio>
 <canvas></canvas> <!--canvas 画布-->
 
 <script>
@@ -126,7 +134,7 @@ window.addEventListener("resize", onResize);
 requestAnimationFrame(render);
 
 window.onload=function starttime(){
-        time(h1,'-99999,7,4');     // 在一起的时间
+        time(h1,'2016,4,29');     // 在一起的时间
         ptimer = setTimeout(starttime,1000); // 添加计时器
 }
 
@@ -141,7 +149,7 @@ window.onload=function starttime(){
         var second = parseInt(time%60);  // 以60秒为一整份 取余 剩下秒数
 //              console.log(hour+":"+minute+":"+second)
 //              alert(hour)
-        obj.innerHTML="刘若阳<br>爱萌静<br>"+day+"天"+hour+"小时"+minute+"分"+second+"秒"+"了<br><span>刘若阳爱萌静。<br>刘若阳爱萌静。.<br>刘若阳爱萌静。<br>刘若阳爱萌静。</span>"
+        obj.innerHTML="刘若阳<br>爱萌静<br>"+day+"天"+hour+"小时"+minute+"分"+second+"秒"+"了时间可能稍微有一点误差<br><span>刘若阳爱萌静。<br>刘若阳爱萌静。.<br>刘若阳爱萌静。<br>刘若阳爱萌静。</span>"
 
         return true;
     }
